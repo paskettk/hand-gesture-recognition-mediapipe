@@ -1,0 +1,13 @@
+name: mediapipe
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8  # or whatever version you're using
+  - pip
+  - opencv>=3.4.2
+  - tensorflow>=2.3.0
+  - scikit-learn>=0.23.2  # optional: for confusion matrix
+  - matplotlib>=3.3.2      # optional: for confusion matrix
+  - pip:
+      - mediapipe
